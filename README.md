@@ -51,6 +51,7 @@ Submissions are scored on the log loss
 ### 'learning_rate': 0.05   ##default
 
       'learning_rate': 0.07   LB  0.52867   ver4
+      'learning_rate': 0.06   LB  0.52605   ver6
       'learning_rate': 0.05   LB  0.51968   ver2    ##default
       'learning_rate': 0.04   LB  0.52425   ver5
       'learning_rate': 0.01   LB  0.55852   ver3             
