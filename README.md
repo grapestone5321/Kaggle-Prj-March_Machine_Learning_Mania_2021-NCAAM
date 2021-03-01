@@ -62,5 +62,13 @@ Submissions are scored on the log loss
               
  -------             
               
-              
+ ## Massey's ordinals, Massey's ordinals-2            
 
+
+      sub_df[['ID', 'Pred']].to_csv('submission.csv', index=False, float_format='%.3g')     LB  0.51571   ver1 
+      sub_df[['ID', 'Pred']].to_csv('submission.csv', index=False, float_format='%.4g')     LB  0.51569   ver2 
+      sub_df[['ID', 'Pred']].to_csv('submission.csv', index=False, float_format='%.5g')     LB  0.51569   ver4   --- Best -> 42
+      sub_df[['ID', 'Pred']].to_csv('submission.csv', index=False, float_format='%.8g')     LB  0.51569   ver5
+      
+ -------     
+      
