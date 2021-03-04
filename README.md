@@ -71,4 +71,19 @@ Submissions are scored on the log loss
       sub_df[['ID', 'Pred']].to_csv('s float_format='%.8g')     LB  0.51569   ver5
       
  -------     
-      
+  
+ ## 2021 NCAAM First Step 
+ https://www.kaggle.com/svyatoslavsokolov/2021-ncaam-first-step
+ 
+ 
+      LB: 0.50754     ver1
+      LB: 0.50708     ver2   --- Best
+      LB: 0.52465     ver3
+      LB: 0.51593     ver4
+      LB: 0.51512     ver5
+  
+  
+ -------
+ 
+ 
+ 
