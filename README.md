@@ -70,6 +70,8 @@ Submissions are scored on the log loss
       sub_df[['ID', 'Pred']].to_csv('s float_format='%.5g')     LB  0.51569   ver4   --- Best -> 42
       sub_df[['ID', 'Pred']].to_csv('s float_format='%.8g')     LB  0.51569   ver5
       
+      sub_df[['ID', 'Pred']].to_csv('s float_format='%.16g')     LB  0.51569   ver6, ver7 
+      
  -------     
   
  ## 2021 NCAAM First Step 
@@ -77,10 +79,14 @@ Submissions are scored on the log loss
  
  
       LB: 0.50754     ver1
-      LB: 0.50708     ver2   --- Best
+      LB: 0.50708     ver2
       LB: 0.52465     ver3
       LB: 0.51593     ver4
       LB: 0.51512     ver5
+      LB: 0.50225     ver6   --- Best
+      LB: 0.51415     ver7
+      LB: 0.52401     ver8
+      
   
   
  -------
