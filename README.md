@@ -77,7 +77,8 @@ Submissions are scored on the log loss
  ## 2021 NCAAM First Step 
  https://www.kaggle.com/svyatoslavsokolov/2021-ncaam-first-step
  
- 
+n_splits=10:
+
       LB: 0.50754     ver1
       LB: 0.50708     ver2
       LB: 0.52465     ver3
@@ -87,8 +88,20 @@ Submissions are scored on the log loss
       LB: 0.51415     ver7
       LB: 0.52401     ver8
       
-  
-  
+### kf = KFold(n_splits=10, shuffle=True)
+
+      n_splits= 8        LB: 0.54551     ver10
+      n_splits= 9        LB: 0.50993     ver11
+      n_splits=10        LB: 0.50225     ver6   --- Best
+      n_splits=11        LB: 0.50447     ver12
+      n_splits=12        LB: 0.63946     ver9
+
+n_splits=11:
+
+      LB: 0.50447     ver12
+      LB: 0.50843     ver13
+
+
  -------
  
  
