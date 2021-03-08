@@ -100,9 +100,22 @@ n_splits=11:
 
       LB: 0.50447     ver12
       LB: 0.50843     ver13
+      LB: 0.59928     ver14
+      LB: 0.53396     ver15
+
+
+### early_stopping_rounds = 100
+
+n_splits=10:
+
+      early_stopping_rounds = 100    LB: 0.50225     ver6   --- Best
+      early_stopping_rounds = 200    LB: 0.50731     ver16
+      early_stopping_rounds = 300    LB: 0.51671     ver17
 
 
  -------
  
- 
- 
+## 2019 1st Solution (With parameter optimization)
+https://www.kaggle.com/imoore/2019-1st-solution-with-parameter-optimization 
+
+      Public Score  0.47176
