@@ -124,11 +124,12 @@ early_stopping_rounds = 25,
       #early_stopping_rounds = 50,
       #early_stopping_rounds = 100,
 
+### max_depth = 4)
 
-#max_depth = 4)
-       #max_depth = 8)
-       #max_depth = 12)
-       max_depth = 16)
+      max_depth = 4)
+      max_depth = 8)
+      max_depth = 12)
+      max_depth = 16)  LB: 0.42676     ver6
        
        
 -------
