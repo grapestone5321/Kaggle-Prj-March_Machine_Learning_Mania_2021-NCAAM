@@ -119,3 +119,21 @@ n_splits=10:
 https://www.kaggle.com/imoore/2019-1st-solution-with-parameter-optimization 
 
       Public Score  0.47176
+
+early_stopping_rounds = 25,
+      #early_stopping_rounds = 50,
+      #early_stopping_rounds = 100,
+
+
+#max_depth = 4)
+       #max_depth = 8)
+       #max_depth = 12)
+       max_depth = 16)
+       
+       
+-------
+
+
+
+       
+
