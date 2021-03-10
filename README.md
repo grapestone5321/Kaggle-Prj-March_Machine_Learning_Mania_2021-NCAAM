@@ -118,18 +118,23 @@ n_splits=10:
 ## 2019 1st Solution (With parameter optimization)
 https://www.kaggle.com/imoore/2019-1st-solution-with-parameter-optimization 
 
-      Public Score  0.47176
+      
+### early_stopping_rounds = 25
 
-early_stopping_rounds = 25,
-      #early_stopping_rounds = 50,
-      #early_stopping_rounds = 100,
+      early_stopping_rounds = 25        LB: 0.47176    ver1
+      early_stopping_rounds = 50        LB: 0.47176    ver2
+      early_stopping_rounds = 100       LB: 0.47176    ver3
 
-### max_depth = 4)
+### max_depth = 4
 
-      max_depth = 4)
-      max_depth = 8)
-      max_depth = 12)
-      max_depth = 16)  LB: 0.42676     ver6
+early_stopping_rounds = 25:
+
+      max_depth = 4       LB: 0.47176    ver1
+      max_depth = 8       LB: 0.43349    ver4
+      max_depth = 12      LB: 0.42729    ver5
+      max_depth = 16      LB: 0.42676    ver6   --- Best
+      max_depth = 20      LB:    ver
+      max_depth = 24      LB:    ver
        
        
 -------
