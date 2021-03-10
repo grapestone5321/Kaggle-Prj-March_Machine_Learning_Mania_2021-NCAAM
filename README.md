@@ -132,8 +132,10 @@ early_stopping_rounds = 25:
       max_depth = 4       LB: 0.47176    ver1
       max_depth = 8       LB: 0.43349    ver4
       max_depth = 12      LB: 0.42729    ver5
-      max_depth = 14      LB:    ver
+      max_depth = 14      LB: 0.42714    ver9
+      max_depth = 15      LB:     ver
       max_depth = 16      LB: 0.42676    ver6   --- Best
+      max_depth = 17      LB:     ver
       max_depth = 18      LB: 0.42679    ver8
       max_depth = 20      LB: 0.42679    ver7
       
