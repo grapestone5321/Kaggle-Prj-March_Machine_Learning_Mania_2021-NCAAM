@@ -139,6 +139,20 @@ early_stopping_rounds = 25:
       max_depth = 18      LB: 0.42679    ver8
       max_depth = 20      LB: 0.42679    ver7
       
+      
+      
+### num_parallel_tree = 10
+
+max_depth = 16
+
+      num_parallel_tree = 10     LB: 0.42676    ver6   --- Best
+      num_parallel_tree = 12     LB:     ver
+      
+      
+      
+      
+      
+      
        
        
 -------
