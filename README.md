@@ -147,7 +147,7 @@ max_depth = 16
 
       num_parallel_tree = 8      LB: 0.42849    ver14
       num_parallel_tree = 9      LB: 0.42741    ver15
-      num_parallel_tree = 10     LB: 0.42676    ver6   --- Best
+      num_parallel_tree = 10     LB: 0.42676    ver6   --- (Best)
       num_parallel_tree = 11     LB: 0.42836    ver16      
       num_parallel_tree = 12     LB: 0.42928    ver13
       
@@ -157,9 +157,10 @@ max_depth = 16
 
 num_parallel_tree = 10, max_depth = 16   
 
-      min_child_weight = 32     LB:     ver19
+      min_child_weight = 28     LB:     ver
+      min_child_weight = 32     LB: 0.41238    ver19   --- Best
       min_child_weight = 36     LB: 0.42056    ver18
-      min_child_weight = 40     LB: 0.42676    ver6   --- Best
+      min_child_weight = 40     LB: 0.42676    ver 6
       min_child_weight = 44     LB: 0.43370    ver17   
        
        
