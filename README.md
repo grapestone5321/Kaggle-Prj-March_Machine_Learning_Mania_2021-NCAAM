@@ -157,7 +157,12 @@ max_depth = 16
 
 num_parallel_tree = 10, max_depth = 16   
 
-      min_child_weight = 24     LB:     ver21
+      min_child_weight =  6     LB:     ver26
+      min_child_weight =  8     LB: 0.31471    ver25
+      min_child_weight = 12     LB: 0.33996    ver24
+      min_child_weight = 16     LB: 0.36019    ver23
+      min_child_weight = 20     LB: 0.37786    ver22
+      min_child_weight = 24     LB: 0.39252    ver21
       min_child_weight = 28     LB: 0.40312    ver20   --- Best
       min_child_weight = 32     LB: 0.41238    ver19
       min_child_weight = 36     LB: 0.42056    ver18
