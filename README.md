@@ -149,27 +149,40 @@ max_depth = 16
       num_parallel_tree = 9      LB: 0.42741    ver15
       num_parallel_tree = 10     LB: 0.42676    ver6   --- (Best)
       num_parallel_tree = 11     LB: 0.42836    ver16      
-      num_parallel_tree = 12     LB: 0.42928    ver13
-      
-      
+      num_parallel_tree = 12     LB: 0.42928    ver13    
       
 ### min_child_weight = 40
 
 num_parallel_tree = 10, max_depth = 16   
-
-      min_child_weight =  6     LB:     ver26
+       
+      min_child_weight =  1     LB: 0.26666    ver29   --- Best
+      min_child_weight =  2     LB: 0.27226    ver28
+      min_child_weight =  4     LB: 0.28620    ver27
+      min_child_weight =  6     LB: 0.30081    ver26
       min_child_weight =  8     LB: 0.31471    ver25
       min_child_weight = 12     LB: 0.33996    ver24
       min_child_weight = 16     LB: 0.36019    ver23
       min_child_weight = 20     LB: 0.37786    ver22
       min_child_weight = 24     LB: 0.39252    ver21
-      min_child_weight = 28     LB: 0.40312    ver20   --- Best
+      min_child_weight = 28     LB: 0.40312    ver20
       min_child_weight = 32     LB: 0.41238    ver19
       min_child_weight = 36     LB: 0.42056    ver18
       min_child_weight = 40     LB: 0.42676    ver 6
       min_child_weight = 44     LB: 0.43370    ver17   
-       
-       
+
+
+### subsample = 0.7,
+      
+min_child_weight =  1:
+
+      subsample = 0.7     LB: 0.26666    ver29   --- Best
+      subsample = 1.0     LB:     ver30
+
+
+
+
+
+
 -------
 
 
