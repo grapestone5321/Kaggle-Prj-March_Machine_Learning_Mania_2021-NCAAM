@@ -175,10 +175,12 @@ num_parallel_tree = 10, max_depth = 16
 ### subsample = 0.7,
       
 min_child_weight =  1:
-
+0.27176
       subsample = 0.5     LB: 0.27959    ver31
+      subsample = 0.6     LB: 0.27959    ver35
       subsample = 0.7     LB: 0.26666    ver29, ver32   --- Best
-      subsample = 0.8     LB:     ver33
+      subsample = 0.8     LB: 0.27176    ver33
+      subsample = 0.8     LB:     ver34
       subsample = 1.0     LB: 0.28426    ver30
 
 
