@@ -170,27 +170,36 @@ num_parallel_tree = 10, max_depth = 16
       min_child_weight = 40     LB: 0.42676    ver 6
       min_child_weight = 44     LB: 0.43370    ver17   
 
--------
 
-### subsample = 0.7,
+### subsample = 0.7
       
 min_child_weight =  1:
-0.27176
+
       subsample = 0.5     LB: 0.27959    ver31
       subsample = 0.6     LB: 0.27959    ver35
       subsample = 0.7     LB: 0.26666    ver29, ver32   --- Best
       subsample = 0.8     LB: 0.27176    ver33
-      subsample = 0.8     LB:     ver34
+      subsample = 0.9     LB:            ver34
       subsample = 1.0     LB: 0.28426    ver30
 
+-------
 
+### xgb_parameters = 
+      list(objective = cauchyobj, 
+      eval_metric = "mae",
+      booster = "gbtree",
+              
+       eta = 0.02,
+       subsample = 0.8,
+       colsample_bytree = 0.8,       
+       num_parallel_tree = 11,
+       min_child_weight = 1,      
+       gamma = 10,
+       max_depth = 16)
 
-
-
-
+       
 -------
 
 
 
-       
 
