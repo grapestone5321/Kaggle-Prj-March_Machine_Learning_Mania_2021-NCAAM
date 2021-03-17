@@ -239,4 +239,12 @@ min_child_weight =  1:
 
 -------
 
+      regresults <- read.csv("../input/ncaam-march-mania-2021/MDataFiles_Stage2/MRegularSeasonDetailedResults.csv")
+      results <- read.csv("../input/ncaam-march-mania-2021/MDataFiles_Stage2/MNCAATourneyDetailedResults.csv")
+      sub <- read.csv("../input/ncaam-march-mania-2021/MDataFiles_Stage2/MSampleSubmissionStage2.csv")
+      seeds <- read.csv("../input/ncaam-march-mania-2021/MDataFiles_Stage2/MNCAATourneySeeds.csv")
+
+
+
+-------
 
