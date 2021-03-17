@@ -40,7 +40,7 @@ Submissions are scored on the log loss
 
 ## Progress
 
-### Public Best LB Score: 0.50225
+### Public Best LB Score: 0.26514
 
 ### Private Score:
 
