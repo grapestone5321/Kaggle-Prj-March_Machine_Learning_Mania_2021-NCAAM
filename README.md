@@ -195,7 +195,7 @@ min_child_weight =  1:
        num_parallel_tree = 11,
        min_child_weight = 1,      
        gamma = 10,
-       max_depth = 16)
+       max_depth = 16
 
        
 -------
