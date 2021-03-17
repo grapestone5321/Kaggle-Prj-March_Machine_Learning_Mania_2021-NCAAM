@@ -155,7 +155,7 @@ max_depth = 16
 
 num_parallel_tree = 10, max_depth = 16   
        
-      min_child_weight =  1     LB: 0.26666    ver29   --- Best
+      min_child_weight =  1     LB: 0.26666    ver29   --- (Best)
       min_child_weight =  2     LB: 0.27226    ver28
       min_child_weight =  4     LB: 0.28620    ver27
       min_child_weight =  6     LB: 0.30081    ver26
@@ -176,10 +176,10 @@ num_parallel_tree = 10, max_depth = 16
 min_child_weight =  1:
 
       subsample = 0.5     LB: 0.27959    ver31
-      subsample = 0.6     LB: 0.27959    ver35
-      subsample = 0.7     LB: 0.26666    ver29, ver32   --- Best
-      subsample = 0.8     LB: 0.27176    ver33
-      subsample = 0.9     LB:            ver34
+      subsample = 0.6     LB: 0.27176    ver35
+      subsample = 0.7     LB: 0.26666    ver29, ver32  
+      subsample = 0.8     LB: 0.26514    ver33         --- Best
+      subsample = 0.9     LB: 0.26589    ver34
       subsample = 1.0     LB: 0.28426    ver30
 
 -------
@@ -201,5 +201,42 @@ min_child_weight =  1:
 -------
 
 
+
+
+
+      regresults <- read.csv("../input/ncaam-march-mania-2021/MRegularSeasonDetailedResults.csv")
+      results <- read.csv("../input/ncaam-march-mania-2021/MNCAATourneyDetailedResults.csv")
+      sub <- read.csv("../input/ncaam-march-mania-2021/MSampleSubmissionStage1.csv")
+      seeds <- read.csv("../input/ncaam-march-mania-2021/MNCAATourneySeeds.csv")
+
+-------
+
+## Stage2
+      import os
+      os.listdir('/kaggle/input/ncaam-march-mania-2021/MDataFiles_Stage2')
+
+      ['Conferences.csv',
+       'MNCAATourneySeedRoundSlots.csv',
+       'MRegularSeasonDetailedResults.csv',
+       'MNCAATourneyCompactResults.csv',
+       'MGameCities.csv',
+       'MSampleSubmissionStage2.csv',
+       'MSeasons.csv',
+       'MSecondaryTourneyTeams.csv',
+       'Cities.csv',
+       'MTeamSpellings.csv',
+       'MRegularSeasonCompactResults.csv',
+       'MMasseyOrdinals.csv',
+       'MSecondaryTourneyCompactResults.csv',
+       'MNCAATourneySlots.csv',
+       'MNCAATourneySeeds.csv',
+       'MTeamCoaches.csv',
+       'MConferenceTourneyGames.csv',
+       'MNCAATourneyDetailedResults.csv',
+       'MTeamConferences.csv',
+       'MTeams.csv']
+
+
+-------
 
 
