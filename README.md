@@ -248,12 +248,13 @@ min_child_weight =  1:
 
 -------
 
-## Stage2
+## Stage2    
 
-      14 days to go:   LB 0.64834      -> 379
-      9 days to go:    LB 0.62753      -> 301
-      
-      
+### Public Best LB Score: 0.60477
+
+### Private Score: 0.60477
+
+
 -------
 
 
