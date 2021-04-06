@@ -38,11 +38,12 @@ Submissions are scored on the log loss
 
 -------
 
+## Stage1
+
 ## Progress
 
 ### Public Best LB Score: 0.26514
 
-### Private Score:
 
 -------
 
